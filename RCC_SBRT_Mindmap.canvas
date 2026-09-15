@@ -1,0 +1,771 @@
+{
+  "nodes": [
+    {
+      "id": "central-topic",
+      "type": "text",
+      "x": 0,
+      "y": 7244,
+      "width": 360,
+      "height": 120,
+      "text": "# SBRT for Primary Renal Cell Carcinoma — RSS Practice Guide Recommendations"
+    },
+    {
+      "id": "branch-0-guide-overview",
+      "type": "text",
+      "x": 470,
+      "y": 0,
+      "width": 620,
+      "height": 704,
+      "color": "1",
+      "text": "**Guide Overview**\n\n- Barbour AB, Upadhyay R, Anderson AC, et al. (2025). Practical Radiation Oncology, 15:74-85\n  - Radiosurgery Society (RSS)-endorsed, case-based practice guide\n  - Built around 3 illustrative (modified real-world) cases\n- Why SBRT for RCC\n  - RCC traditionally viewed as radioresistant, limiting definitive RT use\n  - Growing prospective evidence now supports high local control with low toxicity\n- Two headline supporting studies (cited in Introduction)\n  - Siva et al., 2022, Lancet Oncol (IROCK IPD meta-analysis, ref 2)\n    - n = 190\n    - 5.5% cumulative incidence of local failure at 5 years\n    - 1 patient grade 4 toxicity; no other grade ≥3 events\n  - Siva et al., 2024, Lancet Oncol (FASTRACK II phase 2, ref 1)\n    - n = 70\n    - 100% local control at median follow-up 43 months\n    - Grade 3 adverse events in 10%; no grade ≥4\n- Abbreviations\n  - SBRT = stereotactic body radiation therapy; RCC = renal cell carcinoma\n  - GTV/ITV/CTV/PTV = gross/internal/clinical/planning target volume\n  - OAR = organ at risk; PRV = planning organ-at-risk volume; IDL = isodose line\n  - eGFR = estimated glomerular filtration rate; LC = local control\n  - IVC-TT = inferior vena cava tumor thrombus\n  - ICI = immune checkpoint inhibitor; TKI = tyrosine kinase inhibitor\n  - BED10 = biologically effective dose (α/β=10); KPS = Karnofsky performance status\n  - IPD = individual patient data; ALARA = as low as reasonably achievable\n  - IROCK = International Radiosurgery Consortium of the Kidney\n  - ISRS = International Society of Stereotactic Radiosurgery"
+    },
+    {
+      "id": "branch-1-illustrative-cases-context-for-the-recom",
+      "type": "text",
+      "x": 470,
+      "y": 1101,
+      "width": 360,
+      "height": 92,
+      "color": "2",
+      "text": "**Illustrative Cases (context for the recommendations)**"
+    },
+    {
+      "id": "branch-1-sub-0-case-1-bulky-nonmetastatic-primary-rcc",
+      "type": "text",
+      "x": 1200,
+      "y": 759,
+      "width": 620,
+      "height": 221,
+      "color": "2",
+      "text": "**Case 1 — Bulky nonmetastatic primary RCC**\n\n- 69F, multiple cardiac/vascular comorbidities; 7.1×5.2×6.8 cm papillary RCC, cT2aN0M0\n- Baseline eGFR 59 mL/min, KPS 70; deemed poor surgical candidate\n- Treated: 50 Gy/5 fractions (VMAT, every-other-day, CBCT-guided to kidney)\n- Outcome: regressed to 4.1×3.9×4.6 cm by 12 months; eGFR 73→52 mL/min; no progression at 15 months"
+    },
+    {
+      "id": "branch-1-sub-1-case-2-primary-rcc-in-a-solitary-kidney",
+      "type": "text",
+      "x": 1200,
+      "y": 1025,
+      "width": 620,
+      "height": 244,
+      "color": "2",
+      "text": "**Case 2 — Primary RCC in a solitary kidney**\n\n- 75F, prior contralateral nephrectomy + IVC thrombectomy for RCC; new left 3.5×2.9 cm mass, cT1aN0M0\n- Baseline eGFR 66 mL/min, KPS 80; offered SBRT as alternative to partial nephrectomy\n- Treated: 50 Gy/5 fractions (conservative, given bowel proximity)\n- Outcome: regressed to 3.1×2.6 cm by 9 months; eGFR stable (50→61 mL/min); later IVC-TT recurrence treated with 35 Gy/5fx, near-resolution at 6 months"
+    },
+    {
+      "id": "branch-1-sub-2-case-3-oligometastatic-rcc-with-residual",
+      "type": "text",
+      "x": 1200,
+      "y": 1314,
+      "width": 620,
+      "height": 221,
+      "color": "2",
+      "text": "**Case 3 — Oligometastatic RCC with residual IVC tumor thrombus**\n\n- 67M, right nephrectomy + IVC thrombectomy for clear cell RCC (pT3a); residual 7 cm suprarenal IVC-TT + solitary painful rib metastasis\n- Baseline eGFR 42 mL/min, KPS 90; not a candidate for further resection\n- Treated: IVC-TT 40 Gy/5fx; rib lesion 42 Gy/3fx\n- Outcome: IVC-TT decreased in size/enhancement; rib pain resolved; eGFR 79 mL/min, no progression at 4 months"
+    },
+    {
+      "id": "branch-2-treatment-modality-selection-for-localiz",
+      "type": "text",
+      "x": 470,
+      "y": 2140,
+      "width": 360,
+      "height": 92,
+      "color": "3",
+      "text": "**Treatment Modality Selection for Localized RCC**"
+    },
+    {
+      "id": "branch-2-sub-0-standard-of-care",
+      "type": "text",
+      "x": 1200,
+      "y": 1590,
+      "width": 620,
+      "height": 175,
+      "color": "3",
+      "text": "**Standard of Care**\n\n- Partial or total nephrectomy remains standard of care for medically operable, resectable disease\n  - National Comprehensive Cancer Network, Kidney Cancer Guidelines v2.2024 (ref 3)\n  - Ljungberg et al., 2022, Eur Urol — EAU Guidelines update (ref 4)"
+    },
+    {
+      "id": "branch-2-sub-1-active-surveillance",
+      "type": "text",
+      "x": 1200,
+      "y": 1810,
+      "width": 620,
+      "height": 152,
+      "color": "3",
+      "text": "**Active Surveillance**\n\n- Consider for T1 disease based on tumor biology and competing mortality risk\n  - Favored by small (T1a) size + short expected lifespan\n  - NCCN Guidelines v2.2024 (ref 3)"
+    },
+    {
+      "id": "branch-2-sub-2-thermal-ablation-cryotherapy-radiofreque",
+      "type": "text",
+      "x": 1200,
+      "y": 2007,
+      "width": 620,
+      "height": 313,
+      "color": "3",
+      "text": "**Thermal Ablation (cryotherapy, radiofrequency ablation)**\n\n- Restrict to T1a disease (<3-4 cm) away from the renal hilum/proximal ureter\n  - Ljungberg et al., 2022, Eur Urol (ref 4)\n  - Campbell et al., 2021, J Urol — AUA Guideline Part I (ref 5)\n- Pre-treatment biopsy not mandatory given high sensitivity/specificity of MRI\n  - Vogel et al., 2019, Clin Genitourin Cancer — imaging systematic review (ref 6)\n- No published prospective efficacy trials of thermal ablation (at time of writing)\n- RADSTER trial only randomized comparison to date; built for feasibility, not efficacy\n  - Swaminath et al., 2023, Int J Radiat Oncol Biol Phys (ref 7)\n  - Found high crossover to SBRT, largely due to technical inability to perform RFA"
+    },
+    {
+      "id": "branch-2-sub-3-sbrt",
+      "type": "text",
+      "x": 1200,
+      "y": 2365,
+      "width": 620,
+      "height": 198,
+      "color": "3",
+      "text": "**SBRT**\n\n- May be used for both T1a and T1b disease regardless of proximity to hilum/ureter\n  - NCCN Guidelines v2.2024 (ref 3)\n- >12 prospective clinical trials evaluating SBRT for RCC (vs 0 for thermal ablation)\n  - Siva et al., 2024, Lancet Oncol — ISRS systematic review/guideline (ref 8)"
+    },
+    {
+      "id": "branch-2-sub-4-choosing-between-modalities-recommendati",
+      "type": "text",
+      "x": 1200,
+      "y": 2608,
+      "width": 620,
+      "height": 175,
+      "color": "3",
+      "text": "**Choosing Between Modalities (Recommendation)**\n\n- Favor thermal ablation when technically feasible AND biopsy tissue is needed, OR bilateral tumors/genetic predisposition to multiple tumors\n- Favor SBRT for larger tumors or tumors proximal to the hilum\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)"
+    },
+    {
+      "id": "branch-3-tumor-size-thresholds-for-sbrt",
+      "type": "text",
+      "x": 470,
+      "y": 2838,
+      "width": 620,
+      "height": 566,
+      "color": "4",
+      "text": "**Tumor Size Thresholds for SBRT**\n\n- SBRT for ≥T2 disease remains controversial; most evidence is T1-focused\n- Tumor size unreported in 42% of published SBRT studies (reportable in only 58%)\n  - Ali et al., 2022, Eur Urol — role-of-SABR review (ref 13)\n- FASTRACK II specifically excluded tumors >10 cm\n  - Siva et al., 2024, Lancet Oncol (ref 1)\n- Largest reported bulky-tumor cohort\n  - Correa et al., 2018, Am J Clin Oncol (ref 14)\n    - n = 11; median tumor diameter 9.5 cm (range 7.5-24.4)\n    - Median GTV 483 cm³ (range 186-4618); median PTV 819 cm³ (range 313-5704)\n    - Dose 25-40 Gy/5fx to tumor or whole kidney (not all doses definitive)\n    - 1 grade ≥3 toxicity (nausea); 1/7 imaged patients progressed at 3.9-year median follow-up\n- Dose-escalation series in bulky primary tumors (metastatic RCC population)\n  - Correa et al., 2018, Radiat Oncol — phase I dose escalation (ref 15)\n    - Median tumor 8.7 cm (range 4.8-13.8)\n    - Max dose 35 Gy/5fx (less-than-definitive) — acceptable toxicity, renal function preserved\n- Recommendation: T2 (especially T2b) as a reasonable practical upper limit for definitive-dose SBRT\n  - Tumor location/proximity to bowel often the more important dose-limiting factor than size alone"
+    },
+    {
+      "id": "branch-4-dose-fractionation-selection",
+      "type": "text",
+      "x": 470,
+      "y": 4238,
+      "width": 360,
+      "height": 69,
+      "color": "5",
+      "text": "**Dose & Fractionation Selection**"
+    },
+    {
+      "id": "branch-4-sub-0-general-principles",
+      "type": "text",
+      "x": 1200,
+      "y": 3459,
+      "width": 620,
+      "height": 267,
+      "color": "5",
+      "text": "**General Principles**\n\n- No universally defined dose threshold for optimal local control\n- Single-fraction, 3-fraction, and 4-5 fraction regimens all show low local progression in prospective series\n- 5-year observational analysis (adjusted for tumor size ≤4cm, age, performance status, solitary kidney, baseline eGFR)\n  - Siva et al., 2022, Lancet Oncol — IROCK (ref 2)\n    - Single-fraction (median BED10 87.5 Gy) associated with better LC than multifraction"
+    },
+    {
+      "id": "branch-4-sub-1-size-based-selection-recommendation",
+      "type": "text",
+      "x": 1200,
+      "y": 3771,
+      "width": 620,
+      "height": 451,
+      "color": "5",
+      "text": "**Size-Based Selection (Recommendation)**\n\n- Minimum BED10 of 72 Gy via: 25-26 Gy/1fx, OR 42-48 Gy/3fx, OR ≥40 Gy/5fx\n  - Siva et al., 2024, Lancet Oncol — ISRS guideline (ref 8)\n- Practical thresholds: single fraction ≤4-5 cm; 3 fractions >4-5 cm; 5 fractions if needed for OAR constraints\n  - Siva et al., 2024, Lancet Oncol — ISRS guideline (ref 8)\n  - Dichotomized at 4 cm: Siva et al., 2024, Lancet Oncol — FASTRACK II (ref 1)\n  - Dichotomized at 5 cm: Siva et al., 2017, BJU Int (ref 17)\n  - Grade ≥3 toxicity did not exceed 10% with either size-based split\n- Longer fractionation may still be required regardless of size, based on anatomy/technology\n- Often prescribed to 70-80% isodose line\n- FASTRACK/FASTRACK II protocol: D99%PTV = 100% dose (D95%PTV = 100% acceptable if needed for OAR); max peak dose 143%\n  - Siva et al., 2017, BJU Int (ref 17); Siva et al., 2024, Lancet Oncol (ref 1)\n- Case 1 used 50 Gy/5fx for large lesion size + institutional preference (3fx also would have been reasonable)"
+    },
+    {
+      "id": "branch-4-sub-2-table-1-prospective-study-dose-fractiona",
+      "type": "text",
+      "x": 1200,
+      "y": 4267,
+      "width": 620,
+      "height": 819,
+      "color": "5",
+      "text": "**Table 1 — Prospective Study Dose/Fractionation Data**\n\n(Note: exact decimal LC% for some rows was clipped by the source PDF's table formatting; values below are approximate as extracted)\n- Grubb et al., 2021, Radiother Oncol (ref 19)\n  - n = 11; median 3.7 cm (range 1.7-9.5)\n  - 48, 54, or 60 Gy/3fx (dose escalation)\n  - Follow-up 34.3 months; LC ≈ 90%\n- Hannan et al., 2023, Eur Urol (ref 10)\n  - n = 16; median 3.2 cm (IQR 2.6-3.9)\n  - 36 Gy/3fx or 40 Gy/5fx\n  - Follow-up 36 months; LC ≈ 94%\n- Lapierre et al., 2023, Pract Radiat Oncol — RSR1 trial (ref 21)\n  - n = 12; median 3.3 cm (IQR 2.3-4.0)\n  - 32, 40, or 48 Gy/4fx, or 40 Gy/5fx (dose escalation)\n  - Follow-up 23 months; LC = 100%\n- Ponsky et al., 2015, Radiother Oncol (ref 22)\n  - n = 19; median 57.9 cm³ (range 13.8-174.7)\n  - 24, 32, 40, or 48 Gy/4fx (dose escalation)\n  - Follow-up 13.7 months; LC ≈ 94%\n- Siva et al., 2017, BJU Int — original FASTRACK trial (ref 17)\n  - n = 33 patients / 34 tumors; median 4.8 cm (range 2.1-7.5)\n  - 26 Gy/1fx (<5cm) or 42 Gy/3fx (≥5cm)\n  - Follow-up 24 months; LC ≈ 97%\n- Siva et al., 2024, Lancet Oncol — FASTRACK II (ref 1)\n  - n = 70; median 4.6 cm (IQR 3.7-5.5); tumors >10cm excluded\n  - 26 Gy/1fx (<4cm) or 42 Gy/3fx (≥4cm)\n  - Follow-up 43 months; LC = 100%; grade 3 toxicity 10%, no grade ≥4\n- Staehler et al., 2015, J Urol (ref 16)\n  - n = 29 patients / 30 tumors; median 33.7 cm³ (range 7.5-120.0)\n  - 25 Gy/1fx to 70% isodose line\n  - Follow-up ≈ 28.1 months; LC = 100%\n- Also cited (3-fraction category, no detailed stats in text/table): McBride et al., 2013, Int J Radiat Oncol Biol Phys — abstract (ref 18)"
+    },
+    {
+      "id": "branch-5-oncologic-outcomes-evidence-base",
+      "type": "text",
+      "x": 470,
+      "y": 5141,
+      "width": 620,
+      "height": 451,
+      "color": "6",
+      "text": "**Oncologic Outcomes Evidence Base**\n\n- Correa et al., 2019, Eur Urol Focus — meta-analysis (ref 11)\n  - n = 372 (80% stage 1-2 disease); mean tumor 4.6 cm (range 2.3-9.5)\n  - 97.2% local control; 1.5% grade 3-4 toxicity\n- Siva et al., 2020, Int J Radiat Oncol Biol Phys — IROCK ≥T1b cohort (ref 12)\n  - n = 95 (overlapping cohort); median tumor 4.9 cm (IQR 4.4-5.7)\n  - 2.9% local failure at 4 years; no grade ≥3 toxicity\n- Siva et al., 2022, Lancet Oncol — IROCK IPD meta-analysis (ref 2)\n  - n = 190; 5.5% 5-year cumulative incidence of local failure\n  - 1 grade 4 toxicity event; no other grade ≥3 events\n- Siva et al., 2024, Lancet Oncol — FASTRACK II phase 2 (ref 1)\n  - n = 70; 100% local control at median follow-up 43 months\n  - Grade 3 adverse events 10%; no grade ≥4\n- Recommendation basis: growing evidence supports SBRT for localized kidney cancer including ≥T1b tumors\n  - Siva 2024 (ref 1); Siva 2022 (ref 2); Swaminath 2023 (ref 7); Hannan 2023 (ref 10)"
+    },
+    {
+      "id": "branch-6-target-volume-delineation-gtv-itv-ctv",
+      "type": "text",
+      "x": 470,
+      "y": 5647,
+      "width": 620,
+      "height": 474,
+      "color": "1",
+      "text": "**Target Volume Delineation (GTV / ITV / CTV)**\n\n- GTV: contour on contrast-enhanced planning CT (1-3 mm slices), preferably with coregistered advanced imaging\n  - MRI preferred for soft-tissue resolution; PET/SPECT also described\n  - Muselaers et al., 2022, J Clin Med — PSMA PET/CT overview (ref 27)\n  - Chevli et al., 2021, Adv Radiat Oncol — DMSA-SPECT technique (ref 34)\n  - Liu Y, 2016, Front Oncol — FDG PET/CT in RCC (ref 35)\n- ITV: created to account for respiratory motion\n  - Typically 4D-CT ± additional motion management (abdominal compression, breath hold, gating)\n  - Reducing respiratory renal movement can minimize GFR loss\n    - Gaudreault et al., 2021, Phys Med (ref 36)\n  - Alternative: intrafractional imaging or robotic fiducial tracking can obviate need for an ITV\n    - Barbour et al., 2023, Cancers (Basel) (ref 9)\n- CTV: expansion NOT recommended when contrast-enhanced CT or advanced imaging (e.g., MRI) is available\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)"
+    },
+    {
+      "id": "branch-7-immobilization-ptv-margins-image-guidanc",
+      "type": "text",
+      "x": 470,
+      "y": 6552,
+      "width": 360,
+      "height": 69,
+      "color": "2",
+      "text": "**Immobilization, PTV Margins & Image Guidance**"
+    },
+    {
+      "id": "branch-7-sub-0-immobilization-margins",
+      "type": "text",
+      "x": 1200,
+      "y": 6176,
+      "width": 620,
+      "height": 244,
+      "color": "2",
+      "text": "**Immobilization & Margins**\n\n- Reproducible immobilization required (e.g., supine, arms up, half-body negative-pressure vacuum bag)\n- PTV margin commonly 5 mm, but ranges 0-5 mm by institution/platform\n  - Siva et al., 2022, Lancet Oncol (ref 2)\n- Some centers create a \"PTV_eval\" structure trimmed off luminal GI structures (used in all 3 illustrative cases: 5mm isotropic bowel margin subtracted from PTV)\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)"
+    },
+    {
+      "id": "branch-7-sub-1-image-guidance",
+      "type": "text",
+      "x": 1200,
+      "y": 6465,
+      "width": 620,
+      "height": 129,
+      "color": "2",
+      "text": "**Image Guidance**\n\n- Mandatory on-board imaging: CBCT (± fiducials) pretreatment; repeat during treatment if movement is a concern; may repeat before each arc"
+    },
+    {
+      "id": "branch-7-sub-2-mri-guided-adaptive-sbrt",
+      "type": "text",
+      "x": 1200,
+      "y": 6639,
+      "width": 620,
+      "height": 359,
+      "color": "2",
+      "text": "**MRI-Guided Adaptive SBRT**\n\n- Enables intrafractional gated delivery with minimal margins + daily adaptive planning\n- MRI-guided adaptive SBRT, 40 Gy/5fx: feasible, well tolerated, minimal renal function decline (small prospective cohort)\n  - Yim et al., 2024, Eur Urol Oncol (ref 37)\n  - Adaptive benefit correlates with anterior tumor location + GI OAR overlap with the 25/28 Gy isodose line\n- Re-optimization needed in only a minority of patients, typically flagged by high-volume OAR overlap with the 25 Gy isodose line\n  - Tetar et al., 2020, Cancers (Basel) (ref 38)\n- Recommendation: no proven outcome benefit of MRI-guided vs CT-guided SBRT — platform choice at physician discretion"
+    },
+    {
+      "id": "branch-8-dose-constraints-for-organs-at-risk",
+      "type": "text",
+      "x": 470,
+      "y": 7653,
+      "width": 360,
+      "height": 69,
+      "color": "3",
+      "text": "**Dose Constraints for Organs at Risk**"
+    },
+    {
+      "id": "branch-8-sub-0-general-principles",
+      "type": "text",
+      "x": 1200,
+      "y": 7053,
+      "width": 620,
+      "height": 405,
+      "color": "3",
+      "text": "**General Principles**\n\n- No standardized optimal constraint set defined for primary RCC SBRT; grade ≥3 toxicity has been low across varied constraint sets\n  - Siva 2024 (ref 1); Siva 2022 (ref 2); Swaminath 2023 (ref 7); Hannan 2023 (ref 10); Correa 2018 (ref 15); Lapierre 2023 (ref 21)\n- Special attention to maximal point dose on luminal GI structures (risk of grade 4 ulceration)\n  - Siva et al., 2022, Lancet Oncol (ref 2)\n- Every-other-day treatment schedule should be considered\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)\n- Ipsilateral kidney minus target: keep dose ALARA; minimize volume covered by the 50% isodose (\"intermediate dose wash\")\n- Coplanar beam arrangements help spare renal parenchyma from the low-dose bath\n- No unique constraint set required specifically for a solitary kidney\n  - Correa et al., 2019, J Urol — IROCK solitary kidney (ref 31)"
+    },
+    {
+      "id": "branch-8-sub-1-table-2-common-dose-constraints-fastrack",
+      "type": "text",
+      "x": 1200,
+      "y": 7503,
+      "width": 620,
+      "height": 819,
+      "color": "3",
+      "text": "**Table 2 — Common Dose Constraints (FASTRACK II vs Timmerman Tables)**\n\n- Reference sources: Siva et al., 2024, Lancet Oncol — FASTRACK II (ref 1); Timmerman, 2022, Int J Radiat Oncol Biol Phys (ref 39)\n- Recommended: add 3 mm PRV expansion on hollow viscus organs if using FASTRACK II constraints\n- Spinal canal / cord\n  - Spinal canal D0.03cc — FASTRACK II: 12 Gy (1fx) / 18 Gy (3fx)\n  - Spinal cord D0.03cc — Timmerman: 14 / 22.5 / 28 Gy (1/3/5fx)\n  - Spinal cord D0.35cc — Timmerman: 10 / 15.9 / 22 Gy (1/3/5fx)\n- Small bowel*\n  - D0.03cc — FASTRACK II: 26 / 30 Gy (1/3fx); Timmerman: 20 / 28.5 / 31.6 Gy (1/3/5fx)\n  - D5cc — FASTRACK II: 22.5 Gy (1fx)\n  - D30cc — FASTRACK II: 12.5 Gy (3fx); Timmerman: 17.6 / 20.7 / 22.4 Gy (1/3/5fx)\n- Large bowel*\n  - D1.5cc — FASTRACK II: ALARA, aim <26 Gy (1fx) / <42 Gy (3fx)\n  - D0.03cc — Timmerman: 31 / 45 / 48.5 Gy (1/3/5fx)\n  - D20cc — Timmerman: 20.5 / 28.8 / 30.8 Gy (1/3/5fx)\n- Stomach*\n  - D0.03cc — FASTRACK II: 30 Gy (3fx); Timmerman: 22 / 30 / 33.2 Gy (1/3/5fx)\n  - D1.5cc — FASTRACK II: 15.4 Gy (1fx)\n  - D5cc — FASTRACK II: 22.5 / 22.5 Gy (1/3fx); Timmerman: 17.4 / 22.5 / 25 Gy (1/3/5fx)\n- Liver\n  - D700cc — FASTRACK II: 15 Gy (3fx); Timmerman: 11.6 / 17.7 / 19.6 Gy (1/3/5fx)\n- Ipsilateral kidney minus target\n  - Volume above 50% isodose line — FASTRACK II: ALARA, minimize (1fx & 3fx)\n  - D200cc — Timmerman: 9.5 / 14.7 / 16 Gy (1/3/5fx)\n- Contralateral kidney\n  - V10Gy — FASTRACK II: 33% (1fx & 3fx)\n  - D200cc — Timmerman: 9.5 / 14.7 / 16 Gy (1/3/5fx)\n- (*small/large bowel and stomach: apply 3mm PRV expansion if using FASTRACK II constraints)"
+    },
+    {
+      "id": "branch-9-renal-function-assessment-solitary-kidne",
+      "type": "text",
+      "x": 470,
+      "y": 8776,
+      "width": 360,
+      "height": 92,
+      "color": "4",
+      "text": "**Renal Function Assessment & Solitary Kidney SBRT**"
+    },
+    {
+      "id": "branch-9-sub-0-baseline-assessment-risk-factors",
+      "type": "text",
+      "x": 1200,
+      "y": 8377,
+      "width": 620,
+      "height": 244,
+      "color": "4",
+      "text": "**Baseline Assessment & Risk Factors**\n\n- Risk factors for increased toxicity: prior abdominal radiation, inflammatory bowel disease, connective tissue disorders, concurrent certain systemic therapies\n  - Kroeze et al., 2023, Lancet Oncol (ref 32)\n- If 2 functioning kidneys: consider nuclear medicine split-function renogram to assess relative function\n- All patients: baseline eGFR via creatinine-based equations\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)"
+    },
+    {
+      "id": "branch-9-sub-1-expected-egfr-trajectory-candidacy-cutof",
+      "type": "text",
+      "x": 1200,
+      "y": 8666,
+      "width": 620,
+      "height": 221,
+      "color": "4",
+      "text": "**Expected eGFR Trajectory & Candidacy Cutoff**\n\n- Expected eGFR decline 5-15 mL/min in the years after SBRT; plateau around 2 years\n  - Siva 2022 (ref 2); Hannan 2023 (ref 10); Correa 2019 J Urol (ref 31); Kirste 2022 (ref 20); Glicksman 2023 (ref 33)\n- No formally defined eGFR cutoff; exclusion of eGFR <30 mL/min can be considered to limit iatrogenic dialysis risk (some centers still selectively treat below this)\n  - Siva et al., 2024, Lancet Oncol — FASTRACK II (ref 1)"
+    },
+    {
+      "id": "branch-9-sub-2-solitary-kidney-safety-data",
+      "type": "text",
+      "x": 1200,
+      "y": 8932,
+      "width": 620,
+      "height": 336,
+      "color": "4",
+      "text": "**Solitary Kidney — Safety Data**\n\n- Initial retrospective series: LC in 6/7 cases, generally mild toxicity; kidney function unaffected in 5 patients; no dialysis\n  - Svedman et al., 2008, Acta Oncol (ref 30)\n- Pooled IPD analysis: n = 81; average eGFR reduction 5.8 mL/min (9% decline from baseline); no dialysis at median follow-up 2.6 years\n  - Correa et al., 2019, J Urol — IROCK (ref 31)\n- Systematic review/meta-analysis: 0/35 solitary-kidney patients progressed to dialysis\n  - Correa et al., 2019, Eur Urol Focus (ref 11)\n- Recommendation: SBRT can be safely used in a solitary kidney after baseline eGFR evaluation"
+    },
+    {
+      "id": "branch-10-radiographic-response-assessment",
+      "type": "text",
+      "x": 470,
+      "y": 9323,
+      "width": 620,
+      "height": 658,
+      "color": "5",
+      "text": "**Radiographic Response Assessment**\n\n- Local response: CT or MRI with contrast; MRI without contrast if contrast contraindicated\n- Distant surveillance: both kidneys, adrenals, and chest at minimum\n- Linear tumor measurements often stable/slowly shrinking; volumetric measurement may be more reliable\n  - Schep et al., 2024, Int J Radiat Oncol Biol Phys (ref 23)\n- CT contrast-enhancement changes are unreliable — persistent/increased enhancement does not necessarily mean local failure\n  - Sun et al., 2016, AJR Am J Roentgenol (ref 24)\n- Pseudoprogression (treatment-induced inflammation mimicking growth) complicates assessment\n- Recommendation: delay first response-assessment CT to ≥6 months post-SBRT\n  - Adopted in FASTRACK II: Siva et al., 2024, Lancet Oncol (ref 1)\n- Recommendation: radiographic assessment may not be informative until 6-12 months of follow-up\n  - Siva et al., 2024, Lancet Oncol — ISRS guideline (ref 8)\n  - Barbour et al., 2023, Cancers (Basel) (ref 9)\n- Emerging/investigational tools: MRI dynamic contrast enhancement; novel PET tracers\n  - Siva et al., 2017, J Med Imaging Radiat Oncol — 68Ga-PSMA PET (ref 25)\n  - Reynolds et al., 2018, PLoS One — DWI/DCE-MRI biomarker (ref 26)\n  - Muselaers et al., 2022, J Clin Med (ref 27)\n  - Mittlmeier et al., 2021, Eur J Nucl Med Mol Imaging — 18F-PSMA-1007 PET/CT (ref 28)\n- Field-wide need for standardization/refinement of response-assessment criteria"
+    },
+    {
+      "id": "branch-11-post-sbrt-biopsy-considerations",
+      "type": "text",
+      "x": 470,
+      "y": 10036,
+      "width": 620,
+      "height": 589,
+      "color": "6",
+      "text": "**Post-SBRT Biopsy Considerations**\n\n- Residual disease commonly found on 6-12 month biopsies but does NOT equal treatment failure and does not correlate with subsequent radiographic progression\n  - Hannan 2023 (ref 10); Grubb 2021 (ref 19); Ponsky 2015 (ref 22)\n- Dose-escalation cohort biopsy findings (median 9 months, n=11)\n  - Ponsky et al., 2015, Radiother Oncol (ref 22)\n    - 1 negative for tumor; 3 atypical noninvasive changes; 7 positive tumor cells\n    - 1 patient with positive biopsy later had a spontaneous negative biopsy without interim therapy\n- Expansion-cohort biopsy findings (median 6 months, n=5)\n  - Grubb et al., 2021, Radiother Oncol (ref 19)\n    - All 5 positive on H&E staining\n    - 3 patients without salvage therapy showed no progression at further follow-up of 1.2, 2.0, and 3.9 years\n- Molecular biology of residual cells\n  - Hannan et al., 2023, Eur Urol — phase 2 trial (ref 10)\n    - Protein/gene expression analysis: surviving cells found in a state of cellular senescence (non-proliferative)\n- Recommendation: if biopsy is performed, use dual staining for tumor cells (CA IX) plus a proliferation marker (Ki-67)\n- Recommendation: reserve routine post-SBRT biopsy for clinical trials — residual cells have likely lost proliferative potential\n  - Correa et al., 2023, Eur Urol (ref 29)"
+    },
+    {
+      "id": "branch-12-ivc-tumor-thrombus-t3-management",
+      "type": "text",
+      "x": 470,
+      "y": 10882,
+      "width": 620,
+      "height": 221,
+      "color": "1",
+      "text": "**IVC Tumor Thrombus (T3) Management**\n\n- Venous extension (T3) portends worse prognosis: higher perioperative mortality risk, lower chance of complete resection, thrombus embolization risk\n  - Dason et al., 2023, Urol Clin North Am (ref 40)\n- Recommendation: refer nonmetastatic RCC + IVC-TT patients to high-volume centers for radical nephrectomy + IVC thrombectomy when feasible\n  - Blute et al., 2004, BJU Int — Mayo Clinic experience (ref 41)"
+    },
+    {
+      "id": "branch-12-sub-0-sbrt-for-ivc-tt-inoperable-declined-surg",
+      "type": "text",
+      "x": 1200,
+      "y": 10680,
+      "width": 620,
+      "height": 290,
+      "color": "1",
+      "text": "**SBRT for IVC-TT (inoperable, declined surgery, or palliative)**\n\n- Largest retrospective series\n  - Freifeld et al., 2022, Urol Oncol (ref 42)\n    - n = 15 (66.7% metastatic); median dose 40 Gy/5fx; 5 patients had concurrent primary tumor SBRT\n    - Radiographic response in 58%; palliation achieved in 100% of symptomatic patients; no grade ≥3 toxicity\n- Recommendation: SBRT is a reasonable option for IVC-TT in non-surgical candidates, those declining surgery, and/or for palliation\n  - Raj et al., 2023, Curr Oncol (ref 43)"
+    },
+    {
+      "id": "branch-12-sub-1-neoadjuvant-sbrt-before-thrombectomy-inv",
+      "type": "text",
+      "x": 1200,
+      "y": 11015,
+      "width": 620,
+      "height": 290,
+      "color": "1",
+      "text": "**Neoadjuvant SBRT Before Thrombectomy (investigational)**\n\n- Study 1: 40 Gy/5fx before nephrectomy/thrombectomy\n  - Margulis et al., 2021, Int J Radiat Oncol Biol Phys — safety lead-in (ref 44)\n    - n = 6; 3 grade 3, no grade 4-5 adverse events; 100% alive at median follow-up 24 months\n- Study 2: 30 Gy/5fx neoadjuvant\n  - Chen et al., 2024, BMC Urol (ref 45)\n    - n = 8; no grade ≥3 adverse events\n- Recommendation: neoadjuvant SBRT for IVC-TT should largely remain limited to clinical trials pending mature data"
+    },
+    {
+      "id": "branch-13-oligometastatic-metastatic-rcc-role-of-p",
+      "type": "text",
+      "x": 470,
+      "y": 11360,
+      "width": 620,
+      "height": 520,
+      "color": "2",
+      "text": "**Oligometastatic / Metastatic RCC — Role of Primary Tumor SBRT**\n\n- Systemic therapy remains the backbone of metastatic RCC management, especially with high metastatic burden\n  - NCCN Guidelines v2.2024 (ref 3)\n- Disease progression on systemic therapy remains likely, creating a rationale for multimodal treatment\n  - Liu et al., 2021, Front Oncol — SBRT + TKI survival data (ref 46)\n- Cytoreductive nephrectomy: possible survival benefit in select favorable/intermediate-risk patients; sequencing/selection still debated\n  - Mejean et al., 2021, Eur Urol (ref 47)\n  - Bhindi et al., 2019, Eur Urol — systematic review (ref 48)\n- Metastasis-directed SBRT may postpone/avoid systemic therapy in oligometastatic disease\n  - Hannan et al., 2022, Eur Urol Oncol (ref 49)\n  - Tang et al., 2021, Lancet Oncol (ref 50)\n- Evidence gap: primary tumor SBRT specifically in the metastatic setting remains limited\n- Ongoing randomized trials\n  - NCT05863351 — sequential SBRT + systemic therapy vs systemic therapy alone\n  - NCT06004336 — maintenance pembrolizumab following radiation"
+    },
+    {
+      "id": "branch-13-sub-0-best-available-evidence-for-primary-tumo",
+      "type": "text",
+      "x": 1200,
+      "y": 11475,
+      "width": 620,
+      "height": 290,
+      "color": "2",
+      "text": "**Best Available Evidence for Primary Tumor SBRT in Metastatic Disease**\n\n- Correa et al., 2018, Radiat Oncol — phase I dose-escalation trial (ref 15)\n  - Whole involved kidney treated with SBRT to recapitulate cytoreductive nephrectomy\n  - 35 Gy/5fx achieved with minimal toxicity, favorable renal outcomes, preserved quality of life, local disease stability\n- Recommendation: consider primary tumor SBRT for patients who would qualify for cytoreductive nephrectomy but decline surgery or are poor surgical candidates\n  - Optimal dose/target volume undefined; magnitude of benefit unclear\n  - Prospective work ongoing: NCT04090710, NCT05327686"
+    },
+    {
+      "id": "branch-14-systemic-therapy-sequencing-with-sbrt",
+      "type": "text",
+      "x": 470,
+      "y": 11946,
+      "width": 620,
+      "height": 267,
+      "color": "3",
+      "text": "**Systemic Therapy Sequencing with SBRT**\n\n- Data are sparse; largely extrapolated from metastasis-directed SBRT experience (RCC and other histologies)\n- Preferred systemic agents in RCC: immune checkpoint inhibitors (ICIs), kinase inhibitors (TKIs)\n  - NCCN Guidelines v2.2024 (ref 3)\n- RAPPORT trial: SBRT + short-course pembrolizumab in oligometastatic RCC — tolerable, encouraging oncologic outcomes\n  - Siva et al., 2022, Eur Urol (ref 51)"
+    },
+    {
+      "id": "branch-14-sub-0-recommendations-delphi-consensus",
+      "type": "text",
+      "x": 1200,
+      "y": 11935,
+      "width": 620,
+      "height": 290,
+      "color": "3",
+      "text": "**Recommendations (Delphi Consensus)**\n\n- Kroeze et al., 2023, Lancet Oncol — EORTC-ESTRO OligoCare consensus (ref 32)\n  - Avoid ICI dosing on the same day as SBRT; consider avoiding SBRT within 1 week of ICI\n  - For intrahepatic SBRT targets: level 2b evidence of increased severe toxicity with TKIs — interrupt sunitinib/sorafenib for a maximum of 2 weeks before/after SBRT\n  - Bevacizumab: omit ≥1 cycle when combined with SBRT; avoid SBRT within 1 week of dosing; consider even more caution given its long half-life (risk of bowel toxicity)\n- Emerging safety data: concurrent radiation therapy + cabozantinib\n  - Loo Gan et al., 2023, Eur Urol Oncol — IMDC real-world data (ref 52)"
+    },
+    {
+      "id": "branch-15-ongoing-future-clinical-trials-reference",
+      "type": "text",
+      "x": 470,
+      "y": 12280,
+      "width": 620,
+      "height": 267,
+      "color": "4",
+      "text": "**Ongoing & Future Clinical Trials Referenced**\n\n- RADSTER — thermal ablation vs SBRT feasibility trial\n  - Swaminath et al., 2023, Int J Radiat Oncol Biol Phys (ref 7)\n- NCT03108703, NCT03747133 — further defining SBRT efficacy in definitive management\n- NCT02473536, NCT04090710, NCT05024318, NCT05327686 — clarifying/expanding SBRT indications\n- NCT05863351 — oligometastatic RCC: sequential SBRT + systemic therapy vs systemic therapy alone\n- NCT06004336 — maintenance pembrolizumab following radiation"
+    },
+    {
+      "id": "branch-16-full-numbered-reference-list-as-cited-in",
+      "type": "text",
+      "x": 470,
+      "y": 13558,
+      "width": 360,
+      "height": 92,
+      "color": "5",
+      "text": "**Full Numbered Reference List (as cited in the guide)**"
+    },
+    {
+      "id": "branch-16-sub-0-references-1-26",
+      "type": "text",
+      "x": 1200,
+      "y": 12602,
+      "width": 620,
+      "height": 934,
+      "color": "5",
+      "text": "**References 1-26**\n\n- 1. Siva S, et al. FASTRACK II. Lancet Oncol. 2024;25:308-316\n- 2. Siva S, et al. IROCK 5-yr IPD meta-analysis. Lancet Oncol. 2022;23:1508-1516\n- 3. NCCN Kidney Cancer Guidelines v2.2024\n- 4. Ljungberg B, et al. EAU Guidelines 2022 update. Eur Urol. 2022;82:399-410\n- 5. Campbell SC, et al. AUA Guideline Part I. J Urol. 2021;206:199-208\n- 6. Vogel C, et al. Imaging in suspected RCC. Clin Genitourin Cancer. 2019;17:e345-e355\n- 7. Swaminath A, et al. RADSTER final results. Int J Radiat Oncol Biol Phys. 2023;117:S82\n- 8. Siva S, et al. ISRS systematic review/guideline. Lancet Oncol. 2024;25:e18-e28\n- 9. Barbour AB, et al. Judicious use of SABR. Cancers (Basel). 2023;15:3672\n- 10. Hannan R, et al. Phase 2 trial. Eur Urol. 2023;84:275-286\n- 11. Correa RJM, et al. Systematic review/meta-analysis. Eur Urol Focus. 2019;5:958-969\n- 12. Siva S, et al. ≥T1b IROCK. Int J Radiat Oncol Biol Phys. 2020;108:941-949\n- 13. Ali M, et al. Role of SABR in RCC. Eur Urol. 2022;82:613-622\n- 14. Correa RJM, et al. SABR for large renal tumors. Am J Clin Oncol. 2018;41:568-575\n- 15. Correa RJM, et al. Phase I dose-escalation trial. Radiat Oncol. 2018;13:47\n- 16. Staehler M, et al. Single-fraction radiosurgery. J Urol. 2015;193:771-775\n- 17. Siva S, et al. FASTRACK prospective trial. BJU Int. 2017;120:623-630\n- 18. McBride SM, et al. Phase 1 dose-escalation (abstract). Int J Radiat Oncol Biol Phys. 2013;87:S84\n- 19. Grubb WR, et al. Dose-escalation protocol final results. Radiother Oncol. 2021;155:138-143\n- 20. Kirste S, et al. Von Hippel-Lindau prospective trial. Cancers (Basel). 2022;14:5069\n- 21. Lapierre A, et al. RSR1 phase 1, 24-month results. Pract Radiat Oncol. 2023;13:e73-e79\n- 22. Ponsky L, et al. Phase I dose-escalation study. Radiother Oncol. 2015;117:183-187\n- 23. Schep DG, et al. Volumetric response assessment. Int J Radiat Oncol Biol Phys. 2024;119:832-837\n- 24. Sun MRM, et al. Growth kinetics/enhancement pattern. AJR Am J Roentgenol. 2016;206:544-553\n- 25. Siva S, et al. 68Ga-PSMA PET. J Med Imaging Radiat Oncol. 2017;61:372-378\n- 26. Reynolds HM, et al. DWI/DCE-MRI biomarker. PLoS One. 2018;13:e0202387"
+    },
+    {
+      "id": "branch-16-sub-1-references-27-52",
+      "type": "text",
+      "x": 1200,
+      "y": 13581,
+      "width": 620,
+      "height": 1026,
+      "color": "5",
+      "text": "**References 27-52**\n\n- 27. Muselaers S, et al. PSMA PET/CT overview. J Clin Med. 2022;11:1829\n- 28. Mittlmeier LM, et al. 18F-PSMA-1007 PET/CT. Eur J Nucl Med Mol Imaging. 2021;48:2031-2037\n- 29. Correa RJM, et al. Post-treatment biopsy fallacy. Eur Urol. 2023;84:287-288\n- 30. Svedman C, et al. SBRT in a solitary kidney. Acta Oncol. 2008;47:1578-1583\n- 31. Correa RJM, et al. Solitary kidney multicenter IROCK. J Urol. 2019;201:1097-1104\n- 32. Kroeze SGC, et al. SBRT + targeted/immunotherapy consensus. Lancet Oncol. 2023;24:e121-e132\n- 33. Glicksman RM, et al. Oncologic and renal function outcomes. Clin Oncol (R Coll Radiol). 2023;35:20-28\n- 34. Chevli N, et al. DMSA-SPECT. Adv Radiat Oncol. 2021;6:100719\n- 35. Liu Y. FDG PET/CT in RCC. Front Oncol. 2016;6:201\n- 36. Gaudreault M, et al. Respiratory motion management. Phys Med. 2021;89:72-79\n- 37. Yim K, et al. MR-guided adaptive radiation therapy. Eur Urol Oncol. 2024;7:147-150\n- 38. Tetar SU, et al. Daily adaptive MR-guided radiotherapy. Cancers (Basel). 2020;12:2763\n- 39. Timmerman R. Hypofractionation dose tables. Int J Radiat Oncol Biol Phys. 2022;112:4-21\n- 40. Dason S, et al. Surgical management of RCC with IVC-TT. Urol Clin North Am. 2023;50:261-284\n- 41. Blute ML, et al. Mayo Clinic experience. BJU Int. 2004;94:33-41\n- 42. Freifeld Y, et al. SABR for IVC tumor thrombus. Urol Oncol. 2022;40:166.e9-166.e13\n- 43. Raj RK, et al. Incorporating SABR into RCC management. Curr Oncol. 2023;30:10283-10298\n- 44. Margulis V, et al. Neoadjuvant SABR safety lead-in. Int J Radiat Oncol Biol Phys. 2021;110:1135-1142\n- 45. Chen J, et al. Neoadjuvant SABR + surgery pilot study. BMC Urol. 2024;24:31\n- 46. Liu Y, et al. Survival with SBRT + TKI. Front Oncol. 2021;11:607595\n- 47. Mejean A, et al. Sunitinib +/- nephrectomy. Eur Urol. 2021;80:417-424\n- 48. Bhindi B, et al. Cytoreductive nephrectomy systematic review. Eur Urol. 2019;75:111-128\n- 49. Hannan R, et al. SABR for systemic-therapy-naive oligomet disease. Eur Urol Oncol. 2022;5:695-703\n- 50. Tang C, et al. Definitive RT in lieu of systemic therapy. Lancet Oncol. 2021;22:1732-1739\n- 51. Siva S, et al. RAPPORT trial. Eur Urol. 2022;81:364-372\n- 52. Loo Gan C, et al. Concurrent RT + cabozantinib (IMDC). Eur Urol Oncol. 2023;6:204-211"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-central-topic-branch-0-guide-overview",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-0-guide-overview",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "edge-central-topic-branch-1-illustrative-cases-context-for-the-recom",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-1-illustrative-cases-context-for-the-recom",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-1-illustrative-cases-context-for-the-recom-branch-1-sub-0-case-1-bulky-nonmetastatic-primary-rcc",
+      "fromNode": "branch-1-illustrative-cases-context-for-the-recom",
+      "fromSide": "right",
+      "toNode": "branch-1-sub-0-case-1-bulky-nonmetastatic-primary-rcc",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-1-illustrative-cases-context-for-the-recom-branch-1-sub-1-case-2-primary-rcc-in-a-solitary-kidney",
+      "fromNode": "branch-1-illustrative-cases-context-for-the-recom",
+      "fromSide": "right",
+      "toNode": "branch-1-sub-1-case-2-primary-rcc-in-a-solitary-kidney",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-1-illustrative-cases-context-for-the-recom-branch-1-sub-2-case-3-oligometastatic-rcc-with-residual",
+      "fromNode": "branch-1-illustrative-cases-context-for-the-recom",
+      "fromSide": "right",
+      "toNode": "branch-1-sub-2-case-3-oligometastatic-rcc-with-residual",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-central-topic-branch-2-treatment-modality-selection-for-localiz",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-2-treatment-modality-selection-for-localiz",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-2-treatment-modality-selection-for-localiz-branch-2-sub-0-standard-of-care",
+      "fromNode": "branch-2-treatment-modality-selection-for-localiz",
+      "fromSide": "right",
+      "toNode": "branch-2-sub-0-standard-of-care",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-2-treatment-modality-selection-for-localiz-branch-2-sub-1-active-surveillance",
+      "fromNode": "branch-2-treatment-modality-selection-for-localiz",
+      "fromSide": "right",
+      "toNode": "branch-2-sub-1-active-surveillance",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-2-treatment-modality-selection-for-localiz-branch-2-sub-2-thermal-ablation-cryotherapy-radiofreque",
+      "fromNode": "branch-2-treatment-modality-selection-for-localiz",
+      "fromSide": "right",
+      "toNode": "branch-2-sub-2-thermal-ablation-cryotherapy-radiofreque",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-2-treatment-modality-selection-for-localiz-branch-2-sub-3-sbrt",
+      "fromNode": "branch-2-treatment-modality-selection-for-localiz",
+      "fromSide": "right",
+      "toNode": "branch-2-sub-3-sbrt",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-2-treatment-modality-selection-for-localiz-branch-2-sub-4-choosing-between-modalities-recommendati",
+      "fromNode": "branch-2-treatment-modality-selection-for-localiz",
+      "fromSide": "right",
+      "toNode": "branch-2-sub-4-choosing-between-modalities-recommendati",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-central-topic-branch-3-tumor-size-thresholds-for-sbrt",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-3-tumor-size-thresholds-for-sbrt",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-central-topic-branch-4-dose-fractionation-selection",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-4-dose-fractionation-selection",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-branch-4-dose-fractionation-selection-branch-4-sub-0-general-principles",
+      "fromNode": "branch-4-dose-fractionation-selection",
+      "fromSide": "right",
+      "toNode": "branch-4-sub-0-general-principles",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-branch-4-dose-fractionation-selection-branch-4-sub-1-size-based-selection-recommendation",
+      "fromNode": "branch-4-dose-fractionation-selection",
+      "fromSide": "right",
+      "toNode": "branch-4-sub-1-size-based-selection-recommendation",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-branch-4-dose-fractionation-selection-branch-4-sub-2-table-1-prospective-study-dose-fractiona",
+      "fromNode": "branch-4-dose-fractionation-selection",
+      "fromSide": "right",
+      "toNode": "branch-4-sub-2-table-1-prospective-study-dose-fractiona",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-central-topic-branch-5-oncologic-outcomes-evidence-base",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-5-oncologic-outcomes-evidence-base",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "edge-central-topic-branch-6-target-volume-delineation-gtv-itv-ctv",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-6-target-volume-delineation-gtv-itv-ctv",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "edge-central-topic-branch-7-immobilization-ptv-margins-image-guidanc",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-7-immobilization-ptv-margins-image-guidanc",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-7-immobilization-ptv-margins-image-guidanc-branch-7-sub-0-immobilization-margins",
+      "fromNode": "branch-7-immobilization-ptv-margins-image-guidanc",
+      "fromSide": "right",
+      "toNode": "branch-7-sub-0-immobilization-margins",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-7-immobilization-ptv-margins-image-guidanc-branch-7-sub-1-image-guidance",
+      "fromNode": "branch-7-immobilization-ptv-margins-image-guidanc",
+      "fromSide": "right",
+      "toNode": "branch-7-sub-1-image-guidance",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-7-immobilization-ptv-margins-image-guidanc-branch-7-sub-2-mri-guided-adaptive-sbrt",
+      "fromNode": "branch-7-immobilization-ptv-margins-image-guidanc",
+      "fromSide": "right",
+      "toNode": "branch-7-sub-2-mri-guided-adaptive-sbrt",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-central-topic-branch-8-dose-constraints-for-organs-at-risk",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-8-dose-constraints-for-organs-at-risk",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-8-dose-constraints-for-organs-at-risk-branch-8-sub-0-general-principles",
+      "fromNode": "branch-8-dose-constraints-for-organs-at-risk",
+      "fromSide": "right",
+      "toNode": "branch-8-sub-0-general-principles",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-8-dose-constraints-for-organs-at-risk-branch-8-sub-1-table-2-common-dose-constraints-fastrack",
+      "fromNode": "branch-8-dose-constraints-for-organs-at-risk",
+      "fromSide": "right",
+      "toNode": "branch-8-sub-1-table-2-common-dose-constraints-fastrack",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-central-topic-branch-9-renal-function-assessment-solitary-kidne",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-9-renal-function-assessment-solitary-kidne",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-branch-9-renal-function-assessment-solitary-kidne-branch-9-sub-0-baseline-assessment-risk-factors",
+      "fromNode": "branch-9-renal-function-assessment-solitary-kidne",
+      "fromSide": "right",
+      "toNode": "branch-9-sub-0-baseline-assessment-risk-factors",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-branch-9-renal-function-assessment-solitary-kidne-branch-9-sub-1-expected-egfr-trajectory-candidacy-cutof",
+      "fromNode": "branch-9-renal-function-assessment-solitary-kidne",
+      "fromSide": "right",
+      "toNode": "branch-9-sub-1-expected-egfr-trajectory-candidacy-cutof",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-branch-9-renal-function-assessment-solitary-kidne-branch-9-sub-2-solitary-kidney-safety-data",
+      "fromNode": "branch-9-renal-function-assessment-solitary-kidne",
+      "fromSide": "right",
+      "toNode": "branch-9-sub-2-solitary-kidney-safety-data",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-central-topic-branch-10-radiographic-response-assessment",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-10-radiographic-response-assessment",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-central-topic-branch-11-post-sbrt-biopsy-considerations",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-11-post-sbrt-biopsy-considerations",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "edge-central-topic-branch-12-ivc-tumor-thrombus-t3-management",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-12-ivc-tumor-thrombus-t3-management",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "edge-branch-12-ivc-tumor-thrombus-t3-management-branch-12-sub-0-sbrt-for-ivc-tt-inoperable-declined-surg",
+      "fromNode": "branch-12-ivc-tumor-thrombus-t3-management",
+      "fromSide": "right",
+      "toNode": "branch-12-sub-0-sbrt-for-ivc-tt-inoperable-declined-surg",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "edge-branch-12-ivc-tumor-thrombus-t3-management-branch-12-sub-1-neoadjuvant-sbrt-before-thrombectomy-inv",
+      "fromNode": "branch-12-ivc-tumor-thrombus-t3-management",
+      "fromSide": "right",
+      "toNode": "branch-12-sub-1-neoadjuvant-sbrt-before-thrombectomy-inv",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "edge-central-topic-branch-13-oligometastatic-metastatic-rcc-role-of-p",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-13-oligometastatic-metastatic-rcc-role-of-p",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-branch-13-oligometastatic-metastatic-rcc-role-of-p-branch-13-sub-0-best-available-evidence-for-primary-tumo",
+      "fromNode": "branch-13-oligometastatic-metastatic-rcc-role-of-p",
+      "fromSide": "right",
+      "toNode": "branch-13-sub-0-best-available-evidence-for-primary-tumo",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "edge-central-topic-branch-14-systemic-therapy-sequencing-with-sbrt",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-14-systemic-therapy-sequencing-with-sbrt",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-branch-14-systemic-therapy-sequencing-with-sbrt-branch-14-sub-0-recommendations-delphi-consensus",
+      "fromNode": "branch-14-systemic-therapy-sequencing-with-sbrt",
+      "fromSide": "right",
+      "toNode": "branch-14-sub-0-recommendations-delphi-consensus",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "edge-central-topic-branch-15-ongoing-future-clinical-trials-reference",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-15-ongoing-future-clinical-trials-reference",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "edge-central-topic-branch-16-full-numbered-reference-list-as-cited-in",
+      "fromNode": "central-topic",
+      "fromSide": "right",
+      "toNode": "branch-16-full-numbered-reference-list-as-cited-in",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-branch-16-full-numbered-reference-list-as-cited-in-branch-16-sub-0-references-1-26",
+      "fromNode": "branch-16-full-numbered-reference-list-as-cited-in",
+      "fromSide": "right",
+      "toNode": "branch-16-sub-0-references-1-26",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "edge-branch-16-full-numbered-reference-list-as-cited-in-branch-16-sub-1-references-27-52",
+      "fromNode": "branch-16-full-numbered-reference-list-as-cited-in",
+      "fromSide": "right",
+      "toNode": "branch-16-sub-1-references-27-52",
+      "toSide": "left",
+      "color": "5"
+    }
+  ]
+}
