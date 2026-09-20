@@ -1,0 +1,1329 @@
+{
+  "nodes": [
+    {
+      "id": "overview-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 0,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Prostate cancer: ~1.4M new cases/yr, rising to ~2.9M by 2040; low/intermediate-risk have many curative options + active surveillance"
+    },
+    {
+      "id": "overview-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 140,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Moderate hypofractionation (20–28 fx) = current standard of care; phase III trials show oncologic equivalence & similar toxicity"
+    },
+    {
+      "id": "overview-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 280,
+      "width": 640,
+      "height": 152,
+      "color": "1",
+      "text": "Ultra-hypofractionated RT (>5 Gy/fx) tested in phase III:\n- HYPO-RT-PC: first RCT, non-inferiority vs conventional (intermediate–high risk)\n- PACE-B: 5-fx SBRT non-inferior to conventional (low–intermediate risk)\n- PACE-C: toxicity data (higher-risk)\n- NRG-GU005: lower dose, fewer side effects (ASTRO 2025)"
+    },
+    {
+      "id": "overview-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 502,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Terminology: 'ultra-hypofractionated RT' = fraction size/dose only; 'SBRT' adds steep gradients, high image guidance, precise geometry & motion management"
+    },
+    {
+      "id": "overview-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 642,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Drivers: patient preference for shorter courses + reduced healthcare cost → steady rise in SBRT expected"
+    },
+    {
+      "id": "overview-sub-5",
+      "type": "text",
+      "x": 1240,
+      "y": 782,
+      "width": 640,
+      "height": 404,
+      "color": "1",
+      "text": "**📚 RCT references**\n\n*Moderate hypofractionation RCTs:*\n- RTOG 0415 — Lee WR, et al. J Clin Oncol 2016;34:2325–32 [2]\n- HYPRO — Incrocci L, et al. Lancet Oncol 2016;17:1061–9 [3]\n- CHHiP — Dearnaley D, et al. Lancet Oncol 2016;17:1047 [4]\n- Arcangeli G, et al. J Clin Oncol 2017;35:1891–7 [5]\n- PROFIT (Catton) — Catton CN, et al. J Clin Oncol 2017;35:1884–90 [6]\n\n*Ultra-hypofractionation / SBRT RCTs:*\n- HYPO-RT-PC (5-yr) — Widmark A, et al. Lancet 2019;394:385–95 [9]\n- HYPO-RT-PC (10-yr) — Nilsson P, et al. Lancet Oncol 2026 [10]\n- PACE-A (RP vs SBRT) — Van As N, et al. Eur Urol 2024;86:566–76 [11]\n- PACE-B — van As N, et al. N Engl J Med 2024;391:1413–25 [12]\n   (acute toxicity: Brand DH, et al. Lancet Oncol 2019;20:1531–43 [23])\n- PACE-C — Tree AC, et al. Lancet Oncol 2025;26:936–47 [13]\n- NRG-GU005 (primary) — Ellis RJ, et al. Int J Radiat Oncol 2025;123:S31 [74]\n   (QoL: Yu JB, et al. Int J Radiat Oncol 2025;123:S81 [29])"
+    },
+    {
+      "id": "overview",
+      "type": "text",
+      "x": 520,
+      "y": 558,
+      "width": 420,
+      "height": 70,
+      "color": "1",
+      "text": "**1. Background & Rationale**"
+    },
+    {
+      "id": "methods-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 1306,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "ESTRO task force reviewed literature & drafted 'how-to' recommendations"
+    },
+    {
+      "id": "methods-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 1446,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Expert panel: 15 experts — 11 radiation oncologists, 3 medical physicists, 1 RTT; 9 European countries (DE, BE, IT, UK, CH, SE, AT, FR, ES, CY)"
+    },
+    {
+      "id": "methods-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 1586,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Presented & refined at ESTRO 2025, Vienna"
+    },
+    {
+      "id": "methods-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 1726,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Delphi process: two web-based questionnaire rounds; 10 multiple-choice questions on areas of controversy"
+    },
+    {
+      "id": "methods-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 1866,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Consensus levels (per APCCC): Consensus = ≥75% agreement; Strong consensus = ≥90% agreement"
+    },
+    {
+      "id": "methods",
+      "type": "text",
+      "x": 520,
+      "y": 1586,
+      "width": 420,
+      "height": 70,
+      "color": "2",
+      "text": "**2. Methods (ESTRO consensus)**"
+    },
+    {
+      "id": "selection-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 2056,
+      "width": 640,
+      "height": 110,
+      "color": "3",
+      "text": "Gland size/anatomy: no strict volume cut-off, but many trials exclude >80–100 cc.\nQ2: No consensus — if used, median cut-off 90 cc (range 70–150). >80 cc may risk dosimetry difficulty"
+    },
+    {
+      "id": "selection-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 2236,
+      "width": 640,
+      "height": 110,
+      "color": "3",
+      "text": "Disease risk stratification (Q1): STRONG consensus — SBRT standard for ISUP 2–3, cT1c–cT2c, PSA <20 ng/mL.\nISUP 2 & 3: 100%; cT1c–cT2c: 100%; PSA<20: 100%. High-risk reserved for cases without multiple high-risk factors"
+    },
+    {
+      "id": "selection-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 2416,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Baseline urinary function (Q3): Consensus for a max IPSS cut-off (median 17, range 10–20). Caution after BPH surgery"
+    },
+    {
+      "id": "selection-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 2556,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Prophylactic meds (Q4): No consensus (α1-blockers, steroids, NSAIDs, PDE5i)"
+    },
+    {
+      "id": "selection-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 2696,
+      "width": 640,
+      "height": 89,
+      "color": "3",
+      "text": "Prior BPH surgery — TURP/HoLEP/adenectomy (Q5): STRONG consensus — SBRT only in selected patients with waiting period (median 6 mo, range 2–12) & accounting for surgical cavity"
+    },
+    {
+      "id": "selection-sub-5",
+      "type": "text",
+      "x": 1240,
+      "y": 2855,
+      "width": 640,
+      "height": 89,
+      "color": "3",
+      "text": "Life expectancy & patient factors: match standard RT (≥5–10 yr life expectancy, ECOG 0–2). Relative contraindications: active/recent IBD, bilateral hip replacements"
+    },
+    {
+      "id": "selection-sub-6",
+      "type": "text",
+      "x": 1240,
+      "y": 3014,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Counsel on late urinary symptom flare: transient, 6–18 mo post-Tx, in ~10–20%, self-limiting"
+    },
+    {
+      "id": "selection",
+      "type": "text",
+      "x": 520,
+      "y": 2535,
+      "width": 420,
+      "height": 70,
+      "color": "3",
+      "text": "**3. Patient Selection**"
+    },
+    {
+      "id": "dose-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 3204,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Standard (PACE-B): 36.25 Gy in 5 fx (7.25 Gy/fx) to 95% PTV, with 40 Gy to 95% of prostate CTV"
+    },
+    {
+      "id": "dose-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 3344,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Alternative (HYPO-RT-PC): 42.7 Gy in 7 fx (6.1 Gy/fx) — lower BED, still non-inferior"
+    },
+    {
+      "id": "dose-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 3484,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Table 1 target coverage: CTV V40 ≥95%; PTV V36.25 ≥95%, V34.4 ≥98%; Dmax <48 Gy; D2% <42.8 Gy (PACE-B)"
+    },
+    {
+      "id": "dose-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 3624,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Focal dose-escalation to intraprostatic GTV (>40–50 Gy/5fx, high-risk) & de-escalation (30 Gy/5fx to non-tumour areas, lower-risk) under trial investigation"
+    },
+    {
+      "id": "dose-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 3764,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Treatment frequency: QD to QW; QOD/protracted may reduce low-grade side effects; no oncologic detriment from protraction; overall time 1–2 weeks"
+    },
+    {
+      "id": "dose-sub-5",
+      "type": "text",
+      "x": 1240,
+      "y": 3904,
+      "width": 640,
+      "height": 215,
+      "color": "4",
+      "text": "**📚 RCT references — treatment frequency / schedule**\n- PATRIOT (once-weekly vs every-other-day) — Quon HC, et al. Radiother Oncol 2018;127:206–12 [33]\n- PATRIOT (11 vs 29 days overall time) — Alayed Y, et al. Radiother Oncol 2020;149:8–13 [34]\n- EOD vs once-weekly urethra-sparing SBRT — Zilli T, et al. Int J Radiat Oncol Biol Phys 2023;117:791–8 [35]\n\n(Dose/fractionation standards derive from PACE-B & HYPO-RT-PC — see Background)"
+    },
+    {
+      "id": "dose",
+      "type": "text",
+      "x": 520,
+      "y": 3626,
+      "width": 420,
+      "height": 70,
+      "color": "4",
+      "text": "**4. Dose & Fractionation**"
+    },
+    {
+      "id": "delineation-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 4239,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Prostate: delineate on planning MRI (T2W) registered to planning CT; generously cover apex; exclude bladder wall cranially"
+    },
+    {
+      "id": "delineation-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 4379,
+      "width": 640,
+      "height": 89,
+      "color": "5",
+      "text": "Seminal vesicles: omit in low-risk; include in intermediate/high-risk (PACE: proximal 1 cm all patients; proximal 2 cm to 30 Gy for Gleason 4+3 / NCCN high-risk)"
+    },
+    {
+      "id": "delineation-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 4538,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "T3b disease: macroscopic disease on MRI gets highest dose"
+    },
+    {
+      "id": "delineation-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 4678,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Focal boost: contour GTV per PI-RADS-consistent MRI (DWI, CE-MRI); PSMA-PET may aid GTV identification"
+    },
+    {
+      "id": "delineation-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 4818,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Pelvic lymph node RT (Q6): STRONG consensus — NO elective nodal irradiation with prostate SBRT outside a trial"
+    },
+    {
+      "id": "delineation",
+      "type": "text",
+      "x": 520,
+      "y": 4528,
+      "width": 420,
+      "height": 70,
+      "color": "5",
+      "text": "**5. Target Volume Delineation**"
+    },
+    {
+      "id": "ooi-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 5008,
+      "width": 640,
+      "height": 89,
+      "color": "6",
+      "text": "Mandatory OOIs (5-fx, Table 2): Rectum (V18.1<50%, V29<20%, V36<2cc), Bladder (V18.1<40%, V37<10cc), Bowel (V18.1<5cc, V30≤1cc, D0.035cc<35 Gy), Femoral heads (V14.5<5%)"
+    },
+    {
+      "id": "ooi-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 5167,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Prostatic urethra PRV (urethra+2 mm): steering (avoid hotspots) vs sparing (reduce dose ~10% below CTV Rx). PACE V42<50%; hypo-FLAME D0.035cc<42 Gy"
+    },
+    {
+      "id": "ooi-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 5307,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Sexual structures: penile bulb (V29.5<50%), crura (Dmean<4.7, D2%<12 Gy); vessel-/crura-sparing may reduce erectile dysfunction (evolving evidence)"
+    },
+    {
+      "id": "ooi-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 5447,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Bladder trigone & TURP cavity sparing may reduce GU toxicity; PACE-B post-hoc found no clear link between urinary substructure dose & late toxicity"
+    },
+    {
+      "id": "ooi-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 5587,
+      "width": 640,
+      "height": 152,
+      "color": "6",
+      "text": "**📚 RCT references — sexual structures**\n- Urethra-sparing SBRT: sexual function & dose to penile bulb / crura / internal pudendal arteries (randomized phase 2) — Achard V, et al. Int J Radiat Oncol Biol Phys 2024;119:1137–46 [53]\n- Penile base dose & erectile dysfunction (HYPO-RT-PC randomized trial) — Rasmusson E, et al. Int J Radiat Oncol Biol Phys 2020;107:143–51 [51]"
+    },
+    {
+      "id": "ooi",
+      "type": "text",
+      "x": 520,
+      "y": 5338,
+      "width": 420,
+      "height": 70,
+      "color": "6",
+      "text": "**6. Organs of Interest & Constraints**"
+    },
+    {
+      "id": "adt-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 5859,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Q7: STRONG consensus — use ADT per international guidelines, independent of fractionation"
+    },
+    {
+      "id": "adt-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 5999,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "Intermediate-risk: short-term ADT improves OS & PCSS by ~7%; no benefit beyond ~4 months"
+    },
+    {
+      "id": "adt-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 6139,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "High-risk: long-term ADT consistently improves OS & disease-specific survival"
+    },
+    {
+      "id": "adt-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 6279,
+      "width": 640,
+      "height": 70,
+      "color": "2",
+      "text": "SBRT-specific data limited: HYPO-RT-PC & PACE-B excluded ADT; PACE-C allowed short-term for higher-risk. No evidence SBRT modifies ADT benefit"
+    },
+    {
+      "id": "adt-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 6419,
+      "width": 640,
+      "height": 341,
+      "color": "2",
+      "text": "**📚 RCT references — ADT + radiotherapy**\n- Short-term ADT + RT — Jones CU, et al. N Engl J Med 2011;365:107–18 [55]\n- ADT duration before RT (RTOG 9910) — Pisansky TM, et al. J Clin Oncol 2014;33:332–9 [56]\n- Short ADT + dose escalation (EORTC 22991) — Bolla M, et al. J Clin Oncol 2016;34:1748–56 [57]\n- Duration of ADT (RTOG 92-02) — Horwitz EM, et al. J Clin Oncol 2008;26:2497–504 [58]\n- Duration of ADT (EORTC) — Bolla M, et al. N Engl J Med 2009;360:2516–27 [59]\n- Long-term ADT (EORTC 22863) — Bolla M, et al. Lancet Oncol 2010;11:1066–73 [60]\n- Short vs long ADT (DART01/05 GICOR) — Zapatero A, et al. Lancet Oncol 2015;16:320–7 [61]\n- ADT duration (RTOG 9202) — Lawton CAF, et al. Int J Radiat Oncol Biol Phys 2017;98:296–303 [62]"
+    },
+    {
+      "id": "adt",
+      "type": "text",
+      "x": 520,
+      "y": 6274,
+      "width": 420,
+      "height": 70,
+      "color": "2",
+      "text": "**7. Concomitant ADT**"
+    },
+    {
+      "id": "techniques-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 6880,
+      "width": 640,
+      "height": 89,
+      "color": "3",
+      "text": "Patient preparation (Q8): STRONG consensus — use bladder & bowel prep protocols. Comfortably full bladder (300–500 mL water 30–60 min prior); enemas per PACE; rectal emptying"
+    },
+    {
+      "id": "techniques-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 7039,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Planning scan: comfortable position with immobilisation limiting hip/leg rotation; knee/foot support; CT L3/L4 to external genitalia; slice ≤2 mm"
+    },
+    {
+      "id": "techniques-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 7179,
+      "width": 640,
+      "height": 89,
+      "color": "3",
+      "text": "Treatment plan: maximise PTV coverage (≥95–98% by 95% Rx) with OOI protection; homogeneity 105–107% unless boost/urethra sparing (PACE allows up to 120–133%); minimise beam-on time (fewer beams, avoid posterior entry, high dose rate)"
+    },
+    {
+      "id": "techniques-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 7338,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Proton therapy: PARTIQoL found no difference vs IMRT; proton SBRT investigational (cost, range/interplay uncertainties) — not standard of care"
+    },
+    {
+      "id": "techniques-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 7478,
+      "width": 640,
+      "height": 70,
+      "color": "3",
+      "text": "Rectal spacer (Q9): Consensus NOT to routinely use; option in selected high-GI-risk cases; not formally recommended (lacking large risk–benefit data)"
+    },
+    {
+      "id": "techniques-sub-5",
+      "type": "text",
+      "x": 1240,
+      "y": 7618,
+      "width": 640,
+      "height": 173,
+      "color": "3",
+      "text": "**📚 RCT references — protons & rectal spacer**\n- PARTIQoL (proton therapy vs IMRT, phase III) — Efstathiou JA, et al. Int J Radiat Oncol 2024;120:S1 [68]\n- Rectal spacer, phase III RCT — Hamstra DA, et al. Int J Radiat Oncol Biol Phys 2017;97:976–85 [70]\n- Hyaluronic-acid spacer, randomized clinical trial — Mariados NF, et al. JAMA Oncol 2023;9:511–8 [73]"
+    },
+    {
+      "id": "techniques",
+      "type": "text",
+      "x": 520,
+      "y": 7300,
+      "width": 420,
+      "height": 70,
+      "color": "3",
+      "text": "**8. Treatment Techniques**"
+    },
+    {
+      "id": "qa-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 7911,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "SBRT needs tighter tolerances & more stringent QA (very high dose/fx, steep gradients, few fractions)"
+    },
+    {
+      "id": "qa-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 8051,
+      "width": 640,
+      "height": 89,
+      "color": "4",
+      "text": "Verify positioning, imaging isocentre, geometric distortion, output constancy, radiation/mechanical isocentre alignment, MLC performance, small-field dosimetry & TPS modelling. Tolerances ≤1–2 mm geometric, ±2–3% dosimetric"
+    },
+    {
+      "id": "qa-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 8210,
+      "width": 640,
+      "height": 70,
+      "color": "4",
+      "text": "Patient-specific QA (PSQA): EPID dosimetry, phantom, independent MU calc; gamma analysis with tight criteria (2%/2 mm, 2%/1 mm, 1%/1 mm) & pass rate ≥90%"
+    },
+    {
+      "id": "qa",
+      "type": "text",
+      "x": 520,
+      "y": 8060,
+      "width": 420,
+      "height": 70,
+      "color": "4",
+      "text": "**9. Quality Assurance**"
+    },
+    {
+      "id": "igrt-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 8400,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Q10a (PTV margin ≥5 mm): Consensus — minimum = pre-treatment CBCT soft-tissue matching and/or kV/MV fiducial marker systems (79%)"
+    },
+    {
+      "id": "igrt-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 8540,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Q10b (PTV margin <5 mm): No consensus on adding intra-fraction tracking (71% favour, but below threshold)"
+    },
+    {
+      "id": "igrt-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 8680,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Non-adaptive IGRT: daily pre-Tx CBCT ± fiducials, online corrections; 5 mm margins standard, 4 mm with short beam-on (hypo-FLAME, MIRAGE)"
+    },
+    {
+      "id": "igrt-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 8820,
+      "width": 640,
+      "height": 70,
+      "color": "5",
+      "text": "Intra-fraction tracking (Table 3): EM transponders, transperineal US, stereoscopic X-ray, MRI-guided; enables 2–3 mm margins; needed for prolonged treatments"
+    },
+    {
+      "id": "igrt-sub-4",
+      "type": "text",
+      "x": 1240,
+      "y": 8960,
+      "width": 640,
+      "height": 89,
+      "color": "5",
+      "text": "Online adaptive RT: MRI-Linacs (real-time, non-ionising, manages erratic motion) & CBCT-based ART; 10–45 min replanning; added workflow/safety risks (esp. daily contouring step)"
+    },
+    {
+      "id": "igrt-sub-5",
+      "type": "text",
+      "x": 1240,
+      "y": 9119,
+      "width": 640,
+      "height": 173,
+      "color": "5",
+      "text": "**📚 RCT references — image guidance**\n- Daily vs weekly IGRT (phase 3 RCT) — de Crevoisier R, et al. Int J Radiat Oncol Biol Phys 2018;102:1420–9 [79]\n- MIRAGE (MRI- vs CT-guided SBRT, randomized) — Kishan AU, et al. JAMA Oncol 2023;9:365–73 [83]\n- Daily image guidance with tighter margins (RCT) — Tøndel H, et al. Radiother Oncol 2018;126:229–35 [87]"
+    },
+    {
+      "id": "igrt",
+      "type": "text",
+      "x": 520,
+      "y": 8811,
+      "width": 420,
+      "height": 70,
+      "color": "5",
+      "text": "**10. IGRT & Motion Management**"
+    },
+    {
+      "id": "psa-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 9412,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "PSA bounce common: transient rise, usually within first 12–18 months, in ~10–40% of patients"
+    },
+    {
+      "id": "psa-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 9552,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Interpret early PSA rises with caution — avoid early salvage without confirmed biochemical failure"
+    },
+    {
+      "id": "psa-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 9692,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Definitions: bounce ≥0.2 ng/mL above nadir then returning (HYPO-RT-PC); PACE used Phoenix (nadir +2 ng/mL) after 24 months"
+    },
+    {
+      "id": "psa-sub-3",
+      "type": "text",
+      "x": 1240,
+      "y": 9832,
+      "width": 640,
+      "height": 70,
+      "color": "6",
+      "text": "Mechanism unclear (inflammation, microvascular change, apoptosis); typically resolves without affecting OS/DFS — monitor regularly"
+    },
+    {
+      "id": "psa",
+      "type": "text",
+      "x": 520,
+      "y": 9622,
+      "width": 420,
+      "height": 70,
+      "color": "6",
+      "text": "**11. Post-SBRT PSA Kinetics**"
+    },
+    {
+      "id": "conclusion-sub-0",
+      "type": "text",
+      "x": 1240,
+      "y": 10022,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Prostate SBRT is standard of care for low- & intermediate-risk localised disease; increasingly used in high-risk (role still evolving)"
+    },
+    {
+      "id": "conclusion-sub-1",
+      "type": "text",
+      "x": 1240,
+      "y": 10162,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "ESTRO 'how to' consensus, evidence-based, for radiation oncologists, medical physicists & RTTs to implement/optimise prostate SBRT"
+    },
+    {
+      "id": "conclusion-sub-2",
+      "type": "text",
+      "x": 1240,
+      "y": 10302,
+      "width": 640,
+      "height": 70,
+      "color": "1",
+      "text": "Citation: Draulans C, Tree A, Zilli T, Alongi F, Zamboglou C, Ost P, et al. Radiotherapy and Oncology 223 (2026) 111710. Open access, CC BY-NC"
+    },
+    {
+      "id": "conclusion",
+      "type": "text",
+      "x": 520,
+      "y": 10162,
+      "width": 420,
+      "height": 70,
+      "color": "1",
+      "text": "**12. Conclusion**"
+    },
+    {
+      "id": "central",
+      "type": "text",
+      "x": 0,
+      "y": 5121,
+      "width": 400,
+      "height": 130,
+      "text": "# How to Optimise Prostate SBRT\n### ESTRO Clinical Practice Consensus Recommendations\n*Draulans et al., Radiother Oncol 223 (2026) 111710*"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-overview-0",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-0",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-overview-1",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-1",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-overview-2",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-2",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-overview-3",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-3",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-overview-4",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-4",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-overview-5",
+      "fromNode": "overview",
+      "fromSide": "right",
+      "toNode": "overview-sub-5",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-methods-0",
+      "fromNode": "methods",
+      "fromSide": "right",
+      "toNode": "methods-sub-0",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-methods-1",
+      "fromNode": "methods",
+      "fromSide": "right",
+      "toNode": "methods-sub-1",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-methods-2",
+      "fromNode": "methods",
+      "fromSide": "right",
+      "toNode": "methods-sub-2",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-methods-3",
+      "fromNode": "methods",
+      "fromSide": "right",
+      "toNode": "methods-sub-3",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-methods-4",
+      "fromNode": "methods",
+      "fromSide": "right",
+      "toNode": "methods-sub-4",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-selection-0",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-0",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-1",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-1",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-2",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-2",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-3",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-4",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-4",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-5",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-5",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-selection-6",
+      "fromNode": "selection",
+      "fromSide": "right",
+      "toNode": "selection-sub-6",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-dose-0",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-0",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-dose-1",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-1",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-dose-2",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-2",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-dose-3",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-3",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-dose-4",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-4",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-dose-5",
+      "fromNode": "dose",
+      "fromSide": "right",
+      "toNode": "dose-sub-5",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-delineation-0",
+      "fromNode": "delineation",
+      "fromSide": "right",
+      "toNode": "delineation-sub-0",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-delineation-1",
+      "fromNode": "delineation",
+      "fromSide": "right",
+      "toNode": "delineation-sub-1",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-delineation-2",
+      "fromNode": "delineation",
+      "fromSide": "right",
+      "toNode": "delineation-sub-2",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-delineation-3",
+      "fromNode": "delineation",
+      "fromSide": "right",
+      "toNode": "delineation-sub-3",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-delineation-4",
+      "fromNode": "delineation",
+      "fromSide": "right",
+      "toNode": "delineation-sub-4",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-ooi-0",
+      "fromNode": "ooi",
+      "fromSide": "right",
+      "toNode": "ooi-sub-0",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-ooi-1",
+      "fromNode": "ooi",
+      "fromSide": "right",
+      "toNode": "ooi-sub-1",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-ooi-2",
+      "fromNode": "ooi",
+      "fromSide": "right",
+      "toNode": "ooi-sub-2",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-ooi-3",
+      "fromNode": "ooi",
+      "fromSide": "right",
+      "toNode": "ooi-sub-3",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-ooi-4",
+      "fromNode": "ooi",
+      "fromSide": "right",
+      "toNode": "ooi-sub-4",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-adt-0",
+      "fromNode": "adt",
+      "fromSide": "right",
+      "toNode": "adt-sub-0",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-adt-1",
+      "fromNode": "adt",
+      "fromSide": "right",
+      "toNode": "adt-sub-1",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-adt-2",
+      "fromNode": "adt",
+      "fromSide": "right",
+      "toNode": "adt-sub-2",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-adt-3",
+      "fromNode": "adt",
+      "fromSide": "right",
+      "toNode": "adt-sub-3",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-adt-4",
+      "fromNode": "adt",
+      "fromSide": "right",
+      "toNode": "adt-sub-4",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-techniques-0",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-0",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-techniques-1",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-1",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-techniques-2",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-2",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-techniques-3",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-techniques-4",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-4",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-techniques-5",
+      "fromNode": "techniques",
+      "fromSide": "right",
+      "toNode": "techniques-sub-5",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-qa-0",
+      "fromNode": "qa",
+      "fromSide": "right",
+      "toNode": "qa-sub-0",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-qa-1",
+      "fromNode": "qa",
+      "fromSide": "right",
+      "toNode": "qa-sub-1",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-qa-2",
+      "fromNode": "qa",
+      "fromSide": "right",
+      "toNode": "qa-sub-2",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-igrt-0",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-0",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-igrt-1",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-1",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-igrt-2",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-2",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-igrt-3",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-3",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-igrt-4",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-4",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-igrt-5",
+      "fromNode": "igrt",
+      "fromSide": "right",
+      "toNode": "igrt-sub-5",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-psa-0",
+      "fromNode": "psa",
+      "fromSide": "right",
+      "toNode": "psa-sub-0",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-psa-1",
+      "fromNode": "psa",
+      "fromSide": "right",
+      "toNode": "psa-sub-1",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-psa-2",
+      "fromNode": "psa",
+      "fromSide": "right",
+      "toNode": "psa-sub-2",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-psa-3",
+      "fromNode": "psa",
+      "fromSide": "right",
+      "toNode": "psa-sub-3",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-conclusion-0",
+      "fromNode": "conclusion",
+      "fromSide": "right",
+      "toNode": "conclusion-sub-0",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-conclusion-1",
+      "fromNode": "conclusion",
+      "fromSide": "right",
+      "toNode": "conclusion-sub-1",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-conclusion-2",
+      "fromNode": "conclusion",
+      "fromSide": "right",
+      "toNode": "conclusion-sub-2",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-central-overview",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "overview",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e-central-methods",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "methods",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-central-selection",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "selection",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-central-dose",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "dose",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-central-delineation",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "delineation",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-central-ooi",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "ooi",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-central-adt",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "adt",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e-central-techniques",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "techniques",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e-central-qa",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "qa",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e-central-igrt",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "igrt",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e-central-psa",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "psa",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e-central-conclusion",
+      "fromNode": "central",
+      "fromSide": "right",
+      "toNode": "conclusion",
+      "toSide": "left",
+      "color": "1"
+    }
+  ]
+}
