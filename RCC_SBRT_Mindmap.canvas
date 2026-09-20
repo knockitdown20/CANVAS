@@ -428,6 +428,25 @@
       "height": 1026,
       "color": "5",
       "text": "**References 27-52**\n\n- 27. Muselaers S, et al. PSMA PET/CT overview. J Clin Med. 2022;11:1829\n- 28. Mittlmeier LM, et al. 18F-PSMA-1007 PET/CT. Eur J Nucl Med Mol Imaging. 2021;48:2031-2037\n- 29. Correa RJM, et al. Post-treatment biopsy fallacy. Eur Urol. 2023;84:287-288\n- 30. Svedman C, et al. SBRT in a solitary kidney. Acta Oncol. 2008;47:1578-1583\n- 31. Correa RJM, et al. Solitary kidney multicenter IROCK. J Urol. 2019;201:1097-1104\n- 32. Kroeze SGC, et al. SBRT + targeted/immunotherapy consensus. Lancet Oncol. 2023;24:e121-e132\n- 33. Glicksman RM, et al. Oncologic and renal function outcomes. Clin Oncol (R Coll Radiol). 2023;35:20-28\n- 34. Chevli N, et al. DMSA-SPECT. Adv Radiat Oncol. 2021;6:100719\n- 35. Liu Y. FDG PET/CT in RCC. Front Oncol. 2016;6:201\n- 36. Gaudreault M, et al. Respiratory motion management. Phys Med. 2021;89:72-79\n- 37. Yim K, et al. MR-guided adaptive radiation therapy. Eur Urol Oncol. 2024;7:147-150\n- 38. Tetar SU, et al. Daily adaptive MR-guided radiotherapy. Cancers (Basel). 2020;12:2763\n- 39. Timmerman R. Hypofractionation dose tables. Int J Radiat Oncol Biol Phys. 2022;112:4-21\n- 40. Dason S, et al. Surgical management of RCC with IVC-TT. Urol Clin North Am. 2023;50:261-284\n- 41. Blute ML, et al. Mayo Clinic experience. BJU Int. 2004;94:33-41\n- 42. Freifeld Y, et al. SABR for IVC tumor thrombus. Urol Oncol. 2022;40:166.e9-166.e13\n- 43. Raj RK, et al. Incorporating SABR into RCC management. Curr Oncol. 2023;30:10283-10298\n- 44. Margulis V, et al. Neoadjuvant SABR safety lead-in. Int J Radiat Oncol Biol Phys. 2021;110:1135-1142\n- 45. Chen J, et al. Neoadjuvant SABR + surgery pilot study. BMC Urol. 2024;24:31\n- 46. Liu Y, et al. Survival with SBRT + TKI. Front Oncol. 2021;11:607595\n- 47. Mejean A, et al. Sunitinib +/- nephrectomy. Eur Urol. 2021;80:417-424\n- 48. Bhindi B, et al. Cytoreductive nephrectomy systematic review. Eur Urol. 2019;75:111-128\n- 49. Hannan R, et al. SABR for systemic-therapy-naive oligomet disease. Eur Urol Oncol. 2022;5:695-703\n- 50. Tang C, et al. Definitive RT in lieu of systemic therapy. Lancet Oncol. 2021;22:1732-1739\n- 51. Siva S, et al. RAPPORT trial. Eur Urol. 2022;81:364-372\n- 52. Loo Gan C, et al. Concurrent RT + cabozantinib (IMDC). Eur Urol Oncol. 2023;6:204-211"
+    },
+    {
+      "id": "nice-ng256-overview",
+      "type": "file",
+      "file": "NICE_NG256_RCC_Overview.jpg",
+      "x": -1020,
+      "y": 6986,
+      "width": 900,
+      "height": 637
+    },
+    {
+      "id": "nice-ng256-caption",
+      "type": "text",
+      "color": "6",
+      "x": -1020,
+      "y": 7663,
+      "width": 900,
+      "height": 170,
+      "text": "**NICE NG256 — Kidney cancer: diagnosis & management overview (RCC)**\n\nVisual summary of the NICE clinical pathway: diagnosis (imaging, biopsy) and management of likely benign lesions, localised, locally advanced and advanced RCC. Provides broader clinical context for this SBRT-focused RSS practice guide.\n\nSource: NICE 2026, NG256 (last updated March 2026). © NICE, all rights reserved — subject to NICE Notice of rights."
     }
   ],
   "edges": [
@@ -766,6 +785,22 @@
       "toNode": "branch-16-sub-1-references-27-52",
       "toSide": "left",
       "color": "5"
+    },
+    {
+      "id": "edge-central-nice-overview",
+      "fromNode": "central-topic",
+      "fromSide": "left",
+      "toNode": "nice-ng256-overview",
+      "toSide": "right",
+      "color": "6"
+    },
+    {
+      "id": "edge-nice-overview-caption",
+      "fromNode": "nice-ng256-overview",
+      "fromSide": "bottom",
+      "toNode": "nice-ng256-caption",
+      "toSide": "top",
+      "color": "6"
     }
   ]
 }
